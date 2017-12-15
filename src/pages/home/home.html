@@ -1,14 +1,13 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
-</ion-header>
-
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content>
+  <div class="title">
+    <p style="margin-bottom: 0">VHU</p>
+    <i class="material-icons icon-title">local_florist</i>
+  </div>
+  <div class="homepage" padding>
+      <button ion-button large full class="btn-custom" [navPush]="pushPage3">COMMENCER</button>
+      <button ion-button large icon-only full class="btn-custom">
+          <ion-icon name="md-person"></ion-icon>
+      </button>
+      <p class="txt-copyright">© Martinique Automobiles - 2017</p>
+  </div>
 </ion-content>

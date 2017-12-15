@@ -1,3 +1,40 @@
-page-home {
-
+.homepage{
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+ion-content{
+    background-color: #f39c12!important;    
+}
+.title{
+    font-family: 'Anton', sans-serif;
+    font-weight: 200;    
+    font-size: 60px;
+    width: 100%;
+    text-align: center;    
+    color: white;
+}
+::-webkit-scrollbar { 
+    display: none; 
+}
+.btn-custom{
+    font-family: 'Anton', sans-serif;
+    font-weight: 200;    
+    border-radius: 5px;
+    background-color: #367da6;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.icon-title{
+    font-size: 80px;
+}
+.txt-copyright{
+    margin-bottom: 5px;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    font-size: 12px;
+    color: #1D1D1D;
 }

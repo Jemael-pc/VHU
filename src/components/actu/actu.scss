@@ -1,0 +1,195 @@
+page-home {
+    .block {
+      position: relative;
+      .deleteIcon {
+        position: absolute !important;
+        color: #ffffff !important;
+        margin-left: 80% !important;
+      }
+      .deleteIcon:before {
+        font-size: 30px !important;
+      }
+      }
+    }
+
+icon-title{
+    text-align: center;
+}
+.toolbar-background{
+    background-color: #f39c12;
+}
+.toolbar-title{
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-weight: 200;
+    font-size: 25px;
+    text-align: center;
+}
+.google-map{
+    height: 100%;
+    width: 100%;
+    background-color: #ecf0f1;
+    border-radius: 20px;
+}
+.icon-title{
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 6px;
+}
+.scroll-content{
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+#map{
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+.lieu{
+    font-size: 15px !important;
+    color: #f39c12 !important;
+    padding-top: 0;
+}
+.name{
+    // font-size: 15px !important;
+    color: grey !important;
+}
+.icon-photo{
+    position: absolute;
+    font-size: 30px;
+    bottom: 7px;
+    right: 9px;
+}
+
+.card-ios, .card-md {
+    position: absolute;
+    top: 0;
+    height: 60% !important;
+    border-radius: 20px;
+    padding-bottom: 10px;
+}
+
+
+ion-card-content{
+    overflow: hidden;
+    padding: 0!important;
+}
+ion-card-title, .card-title-md{
+    color: grey;
+    padding-left: 5px!important;
+    padding-right: 5px!important;
+    display: block;
+    font-size: 1.8rem;
+    line-height: 1.2;
+    color: #222;
+    margin: 2px 0;
+    padding: 8px 0;
+}
+.card-ios p, .card-md p {
+    margin: 0 0 2px;
+    font-size: 1.4rem;
+    color: #666;
+    padding-left: 5px!important;
+    padding-right: 5px!important;
+}
+
+
+.txt-img-list{
+    margin-left: 19px!important;
+    margin-top: 4px!important;
+    font-weight: 400;
+    position: absolute;
+    color: #2B2B2B!important;
+}
+.icon-txt-img-list{
+    padding-right: 5px;
+}
+
+.icon-user{
+    position: absolute;
+    font-size: 30px;
+    bottom: 7px;
+    left: 9px;
+}
+
+.icon-delete{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    background-color: #e74c3c;
+    color: white;
+    font-size: 25px;
+    padding: 8px;
+    padding-top: 2px;
+}
+
+.icon-twitter{
+    float: right;
+    height: 30px;
+    width: 30px;
+    padding: 7px;
+    padding-top: 5px;
+    background-color: #3498db;
+    border-radius: 20px;
+    color: white;
+    margin-top: -10px;
+    margin-right: 5px;
+}
+
+.icon-fb{
+    float: right;
+    height: 30px;
+    width: 30px;
+    padding: 8px;
+    padding-top: 6px;
+    background-color: #224380;
+    border-radius: 20px;
+    color: white;
+    margin-top: -10px;
+    margin-right: 5px;
+}
+
+hr {
+    border: 0 !important;
+    height: 1px!important;
+    width: 100%;
+    background: grey;
+    display: block !important;
+    font-size: 2em !important;
+    visibility: visible !important;
+  }
+
+  .icon-card-user{
+    font-size: 30px;
+    position: absolute;
+  }
+
+ ::-webkit-scrollbar { 
+    display: none; 
+}
+
+.last-post{
+    overflow: hidden;
+    height: 50px;
+    width: 50px;
+    border-radius: 40px;
+    margin: 2px;
+    margin-right: 10px;
+    border: 2px solid #e67e22;
+    cursor: pointer;
+}
+.last-post-img{
+    height: 100%;
+    max-width: none;
+}
+.txt-last-post{
+    font-size: 10px;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: grey;
+}
